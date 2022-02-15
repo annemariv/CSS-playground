@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&display=swap');
+
+body {
+    background-color: rgba(218, 191, 155, 0.5);
+}
+.heading {
+    text-align: center;
+}
+
+.playground-heading {
+    color: darkred;
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+}
+
+.main {
+    border: 3px solid grey;
+    width: 55%; 
+    margin: 1rem auto;
+}
+.main div {
+    width: 200px; 
+    height: 200px; 
+    border: 1px solid darkcyan; 
+    border-radius: 50%; 
+    margin: 2rem auto;
+}
+
+#blue {
+    border-color: darkcyan;
+}
+
+#pink {
+    border-color: rgb(190, 126, 158);
+}
+
+#green {
+    border-color: rgb(25, 92, 25);
+}
+
+.footer {
+    color: lightcoral;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem
+}
